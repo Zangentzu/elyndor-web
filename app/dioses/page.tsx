@@ -4,7 +4,7 @@ export default function Dioses() {
   return (
     <div className="min-h-screen bg-black text-white px-6 py-20">
 
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto">
 
         <Link href="/mundo">
           <button className="mb-10 px-4 py-2 rounded-lg bg-zinc-800 hover:bg-zinc-700 transition">
@@ -16,7 +16,7 @@ export default function Dioses() {
           Los Dioses de Elyndor
         </h1>
 
-        <div className="text-zinc-300 text-lg leading-relaxed space-y-8">
+        <div className="text-zinc-300 text-lg leading-relaxed space-y-8 mb-24">
 
           <p>
             Antes de las eras conocidas, antes de los reinos mortales y antes incluso
@@ -35,14 +35,8 @@ export default function Dioses() {
           </p>
 
           <p>
-            La montaña, el océano, el fuego, la tormenta, la memoria y el vacío coexistían dentro de ella
-            como partes de una única existencia perfecta.
-          </p>
-
-          <p>
             Sin embargo, el equilibrio absoluto también significaba inmovilidad.
-            Y del mismo modo en que una estrella termina por arder para no desaparecer en la oscuridad,
-            Elyndra fragmentó partes de su propia esencia para dar origen a los Siete.
+            Y Elyndra fragmentó partes de su propia esencia para dar origen a los Siete.
           </p>
 
           <p>
@@ -52,88 +46,111 @@ export default function Dioses() {
           </p>
 
           <p>
-            Uno representaba la guerra y la voluntad de avanzar.
-            Otro, la memoria y la verdad.
-            Otro, el destino y el orden inevitable.
-            Existían también aquellos ligados al fuego primordial,
-            al equilibrio natural, a los cielos eternos y a la muerte de las eras.
-          </p>
-
-          <p>
-            Durante incontables milenios, los Siete caminaron juntos y moldearon Elyndor.
-            Levantaron montañas, abrieron océanos, despertaron bosques conscientes.
-            Guiaron el nacimiento de gigantes, dragones y espíritus primordiales.
-          </p>
-
-          <p>
-            Las primeras razas no adoraban a los Siete por miedo,
-            sino porque entendían que el mundo respiraba a través de ellos.
-          </p>
-
-          <p>
-            Pero con el paso de las eras, los Siete comenzaron a separarse.
-            Algunos creían que Elyndor debía mantenerse en equilibrio eterno.
-            Otros comenzaron a pensar que el mundo era imperfecto y necesitaba ser guiado,
-            controlado o reconstruido.
-          </p>
-
-          <p>
-            El primero en romper la armonía fue Vaelkor,
-            quien llegó a creer que la paz volvía débiles a las razas mortales.
-            Para él, únicamente el conflicto permitía evolucionar.
-          </p>
-
-          <p>
-            Kaelion, guardián del destino y el orden absoluto,
-            también comenzó a apartarse de Elyndra.
-            Estaba convencido de que la libertad inevitablemente conduciría al caos.
-          </p>
-
-          <p>
             La fractura entre los Siete creció durante siglos hasta convertirse
             en el evento más devastador de toda la historia conocida:
             La Caída de Elyndra.
           </p>
 
           <p>
-            Se dice que los cielos ardieron durante meses.
-            Montañas completas desaparecieron bajo mares recién nacidos.
-            Continentes fueron divididos.
-            Criaturas imposibles escaparon desde planos desconocidos.
-          </p>
-
-          <p>
-            En medio del conflicto, Elyndra intentó detener a los Siete.
-            Pero para entonces la división ya era irreversible.
-            La guerra alcanzó incluso el núcleo espiritual del mundo.
-            Y Elyndra cayó.
-          </p>
-
-          <p>
-            Algunas leyendas afirman que fue asesinada por los propios dioses traidores.
-            Otras aseguran que se sacrificó para evitar la destrucción total de Elyndor.
-          </p>
-
-          <p>
-            La caída de la conciencia primordial alteró todo.
-            Los océanos comenzaron a guardar memorias.
-            Los nombres verdaderos adquirieron poder absoluto.
-            La muerte dejó de ser un final definitivo para ciertas entidades.
-          </p>
-
-          <p>
-            Los Siete jamás volvieron a ser los mismos.
-            Algunos desaparecieron. Otros fueron sellados.
-            Algunos permanecen dormidos bajo montañas, océanos o ruinas olvidadas.
-          </p>
-
-          <p className="text-white font-semibold text-xl">
             Los sabios más antiguos coinciden en algo:
             La historia conocida de Elyndor no comenzó con el nacimiento de los reinos.
             Comenzó con la caída de los dioses.
           </p>
 
         </div>
+
+        <h2 className="text-4xl font-bold text-center mb-12">
+          Los Siete
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+          <Link href="/dioses/elyndra">
+            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 border border-zinc-800 cursor-pointer">
+              <h2 className="text-3xl font-semibold mb-3">
+                Elyndra
+              </h2>
+
+              <p className="text-zinc-400">
+                La conciencia primordial y origen de los Siete.
+              </p>
+            </div>
+          </Link>
+
+          <Link href="/dioses/vaelkor">
+            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 border border-zinc-800 cursor-pointer">
+              <h2 className="text-3xl font-semibold mb-3">
+                Vaelkor
+              </h2>
+
+              <p className="text-zinc-400">
+                Dios de la guerra, conflicto y evolución mediante destrucción.
+              </p>
+            </div>
+          </Link>
+
+          <Link href="/dioses/kaelion">
+            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 border border-zinc-800 cursor-pointer">
+              <h2 className="text-3xl font-semibold mb-3">
+                Kaelion
+              </h2>
+
+              <p className="text-zinc-400">
+                Guardián del destino y del orden absoluto.
+              </p>
+            </div>
+          </Link>
+
+          <Link href="/dioses/tharos">
+            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 border border-zinc-800 cursor-pointer">
+              <h2 className="text-3xl font-semibold mb-3">
+                Tharos
+              </h2>
+
+              <p className="text-zinc-400">
+                Portador del fuego primordial y la destrucción inevitable.
+              </p>
+            </div>
+          </Link>
+
+          <Link href="/dioses/nysera">
+            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 border border-zinc-800 cursor-pointer">
+              <h2 className="text-3xl font-semibold mb-3">
+                Nysera
+              </h2>
+
+              <p className="text-zinc-400">
+                Señora de la memoria, secretos y verdades olvidadas.
+              </p>
+            </div>
+          </Link>
+
+          <Link href="/dioses/solmyr">
+            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 border border-zinc-800 cursor-pointer">
+              <h2 className="text-3xl font-semibold mb-3">
+                Solmyr
+              </h2>
+
+              <p className="text-zinc-400">
+                Vigilante de los cielos eternos y los ciclos del mundo.
+              </p>
+            </div>
+          </Link>
+
+          <Link href="/dioses/lirael">
+            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 border border-zinc-800 cursor-pointer">
+              <h2 className="text-3xl font-semibold mb-3">
+                Lirael
+              </h2>
+
+              <p className="text-zinc-400">
+                Guardiana del equilibrio natural y las almas vivientes.
+              </p>
+            </div>
+          </Link>
+
+        </div>
+
       </div>
     </div>
   );
