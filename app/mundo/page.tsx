@@ -64,6 +64,54 @@ export default function Mundo() {
             </div>
           </Link>
 
+          <Link href="/geografia">
+            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 cursor-pointer border border-zinc-800">
+              <h2 className="text-2xl font-semibold mb-3">
+                Geografía
+              </h2>
+
+              <p className="text-zinc-400">
+                Reinos, regiones, ciudades perdidas y territorios prohibidos.
+              </p>
+            </div>
+          </Link>
+
+          <Link href="/magia">
+            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 cursor-pointer border border-zinc-800">
+              <h2 className="text-2xl font-semibold mb-3">
+                Sistema de Magia
+              </h2>
+
+              <p className="text-zinc-400">
+                Descubre cómo funcionan las fuerzas y poderes de Elyndor.
+              </p>
+            </div>
+          </Link>
+
+          <Link href="/bestiario">
+            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 cursor-pointer border border-zinc-800">
+              <h2 className="text-2xl font-semibold mb-3">
+                Bestiario
+              </h2>
+
+              <p className="text-zinc-400">
+                Criaturas, monstruos y entidades que habitan Elyndor.
+              </p>
+            </div>
+          </Link>
+
+          <Link href="/reliquias">
+            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 cursor-pointer border border-zinc-800">
+              <h2 className="text-2xl font-semibold mb-3">
+                Reliquias
+              </h2>
+
+              <p className="text-zinc-400">
+                Artefactos, armas legendarias y objetos prohibidos.
+              </p>
+            </div>
+          </Link>
+
         </div>
       </div>
     </div>
