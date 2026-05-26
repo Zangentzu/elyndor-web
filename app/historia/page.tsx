@@ -1,8 +1,16 @@
+import Link from "next/link";
+
 export default function Historia() {
   return (
     <div className="min-h-screen bg-black text-white px-6 py-20">
 
-      <div className="max-w-4xl mx-auto space-y-8">
+      <div className="max-w-4xl mx-auto">
+
+        <Link href="/mundo">
+          <button className="mb-10 px-4 py-2 rounded-lg bg-zinc-800 hover:bg-zinc-700 transition">
+            ← Volver al Mundo
+          </button>
+        </Link>
 
         <h1 className="text-5xl font-bold text-center mb-12">
           Historia de Elyndor
