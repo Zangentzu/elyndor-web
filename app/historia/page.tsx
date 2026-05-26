@@ -6,16 +6,19 @@ export default function Historia() {
 
       <div className="max-w-4xl mx-auto">
 
+        {/* Botón regreso */}
         <Link href="/mundo">
           <button className="mb-10 px-4 py-2 rounded-lg bg-zinc-800 hover:bg-zinc-700 transition">
             ← Volver al Mundo
           </button>
         </Link>
 
+        {/* Título */}
         <h1 className="text-5xl font-bold text-center mb-12">
           Historia de Elyndor
         </h1>
 
+        {/* TEXTO */}
         <div className="text-zinc-300 text-lg leading-relaxed space-y-8">
 
           <p>
@@ -61,6 +64,7 @@ export default function Historia() {
           </p>
 
         </div>
+
       </div>
     </div>
   );
