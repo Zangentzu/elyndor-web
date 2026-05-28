@@ -148,6 +148,17 @@ export default function Elyndra() {
             <strong>Atributo clave:</strong> No protege el lugar. El lugar es protegido porque Elyndra aún lo está mirando.
           </p>
 
+          {/* IMAGEN DE LA RUNA */}
+          <div className="mt-10 flex justify-center">
+            <Image
+              src="/dioses/runa-elyndra.png"
+              alt="Runa de Elyndra"
+              width={600}
+              height={600}
+              className="rounded-2xl border border-zinc-800 shadow-lg"
+            />
+          </div>
+
         </div>
 
       </div>
