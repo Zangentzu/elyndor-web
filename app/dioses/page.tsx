@@ -45,6 +45,55 @@ export default function Dioses() {
 
         </div>
 
+        {/* 🔥 TRAICIÓN */}
+        <div className="text-zinc-300 text-lg leading-relaxed space-y-8 mb-24">
+
+          <h2 className="text-4xl font-bold text-center text-white mb-10">
+            LA TRAICIÓN
+          </h2>
+
+          <p>
+            Hubo un tiempo en que los Siete gobernaban Elyndor como fuerzas absolutas del equilibrio primordial. No eran simples dioses: eran los pilares sobre los que descansaba la existencia misma. Y entre ellos, Elyndra era el centro. No como reina. No como conquistadora. Sino como el vínculo que mantenía unido el orden de la creación.
+          </p>
+
+          <p>
+            Pero incluso entre entidades eternas, el miedo puede nacer. El miedo al equilibrio, a la verdad absoluta. El miedo a un poder que jamás podría ser controlado. Y así, cuatro de los Siete se alzaron contra ella.
+          </p>
+
+          <p>
+            Vaelkor, Señor del Vacío. Tharos, Dios de la Guerra Eterna. Nysera, Portadora de la Corrupción. Y Kaelion, Guardián del Destino.
+          </p>
+
+          <p>
+            Kaelion fue quien lideró la traición. No porque fuera el más fuerte. Sino porque fue el único capaz de comprender lo que Elyndra realmente representaba. Mientras los otros veían una diosa, Kaelion vio una verdad imposible de contener. Y decidió que debía desaparecer.
+          </p>
+
+          <p>
+            El plan no consistía en matar a Elyndra. Ni siquiera los dioses podían destruir completamente a una entidad primordial. Debían hacer algo peor. Aislarla, fragmentarla. Dispersar su esencia fuera del alcance del tiempo, la memoria y la existencia misma.
+          </p>
+
+          <p>
+            Cada traidor cumplió un propósito dentro de la caída. Vaelkor utilizó el Vacío para borrar rastros de su existencia. Tharos destruyó su forma divina mediante guerra celestial. Nysera contaminó fragmentos de su esencia para impedir que pudiera reunificarse intacta. Y Kaelion alteró el tejido del destino para asegurar que jamás pudiera regresar.
+          </p>
+
+          <p>
+            Sin embargo, no todos los Siete participaron en la traición. Solmyr, Guardián del Tiempo, observó la caída y decidió no intervenir. No por crueldad ni por cobardía. Sino porque comprendió que alterar aquel momento rompería la estructura completa del tiempo y arrastraría a Elyndor hacia un colapso absoluto.
+          </p>
+
+          <p>
+            Y entonces estuvo Lirael. Diosa de la Luz, los Juramentos y la Esperanza. Lirael desafió el destino en secreto. Mientras los traidores fragmentaban a Elyndra, ella logró rescatar un fragmento puro de su alma antes de que desapareciera completamente.
+          </p>
+
+          <p>
+            Lo ocultó más allá del alcance de los dioses traidores. Más allá de la corrupción. Más allá del destino mismo. Y ese fragmento renacería siglos después como Arya. La caída de Elyndra no terminó con su muerte. Porque Elyndra nunca murió realmente. Fue fragmentada. Su conciencia fue destruida, su historia fue borrada. Su nombre verdadero desapareció del mundo.
+          </p>
+
+          <p>
+            El universo fue reescrito. Civilizaciones enteras olvidaron su existencia. Los registros desaparecieron. Los templos fueron consumidos por el tiempo. Y aquello que una vez fue el corazón de la creación terminó convertido primero en mito y luego en nada. Pero el destino jamás logró destruirlo todo. Porque incluso fragmentada Elyndra dejó ecos. Y algunos ecos se niegan a morir.
+          </p>
+
+        </div>
+
         <h2 className="text-4xl font-bold text-center mb-12">
           Los Siete
         </h2>
