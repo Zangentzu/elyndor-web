@@ -4,6 +4,7 @@ import Image from "next/image";
 export default function Elyndra() {
   return (
     <div className="min-h-screen bg-black text-white px-6 py-20">
+
       <div className="max-w-4xl mx-auto">
 
         {/* Botón regreso */}
@@ -18,12 +19,12 @@ export default function Elyndra() {
           Elyndra
         </h1>
 
-        {/* SUBTÍTULO (asegurado visible en web) */}
+        {/* Subtítulo */}
         <p className="text-center text-zinc-400 text-lg mb-10">
           La Diosa Primordial — origen de la creación, el equilibrio y la verdad absoluta.
         </p>
 
-        {/* IMAGEN (versión segura para Vercel) */}
+        {/* Imagen */}
         <div className="my-10 flex justify-center">
           <Image
             src="/dioses/elyndra.png"
@@ -32,22 +33,72 @@ export default function Elyndra() {
             height={1000}
             className="rounded-2xl border border-zinc-800 shadow-lg"
             priority
-            unoptimized
           />
         </div>
 
-        {/* LORE */}
-        <div className="text-zinc-300 text-lg leading-relaxed space-y-8">
+        {/* LORE (ARREGLADO SIN CORTES) */}
+        <div className="text-zinc-300 text-lg leading-relaxed space-y-8 overflow-visible h-auto max-h-none">
 
           <p>
-            Antes de las eras conocidas...
+            Antes de las eras conocidas, antes de los reinos mortales y antes incluso del nacimiento de las primeras razas conscientes, Elyndor no era un mundo completo. No existían fronteras, estaciones ni civilizaciones. El tiempo aún no avanzaba como lo hace ahora y la realidad permanecía dormida bajo mares eternos, cielos inmóviles y corrientes primordiales que fluían sin forma definida.
           </p>
 
           <p>
-            En aquel origen remoto existía únicamente Elyndra...
+            En aquel origen remoto existía únicamente Elyndra, la conciencia primordial del mundo. No era una diosa en el sentido mortal de la palabra, sino la voluntad viva del propio equilibrio. La montaña, el océano, el fuego, la tormenta, la memoria y el vacío coexistían dentro de ella como partes de una única existencia perfecta.
           </p>
 
-          {/* resto igual */}
+          <p>
+            Sin embargo, el equilibrio absoluto también significaba inmovilidad. Y del mismo modo en que una estrella termina por arder para no desaparecer en la oscuridad, Elyndra fragmentó partes de su propia esencia para dar origen a los Siete.
+          </p>
+
+          <p>
+            Cada uno nació como manifestación de un principio fundamental de la existencia. No eran simples dioses elementales ni gobernantes de un único dominio. Eran conceptos vivos capaces de alterar la realidad misma con su voluntad.
+          </p>
+
+          <p>
+            Uno representaba la guerra y la voluntad de avanzar. Otro, la memoria y la verdad. Otro, el destino y el orden inevitable. Existían también aquellos ligados al fuego primordial, al equilibrio natural, a los cielos eternos y a la muerte de las eras.
+          </p>
+
+          <p>
+            Durante incontables milenios, los Siete caminaron juntos y moldearon Elyndor. Levantaron montañas, abrieron océanos, despertaron bosques conscientes. Guiaron el nacimiento de gigantes, dragones y espíritus primordiales. Encendieron el flujo de la magia y permitieron que la vida evolucionara bajo distintas formas.
+          </p>
+
+          <p>
+            Pero con el paso de las eras, los Siete comenzaron a separarse. Algunos creían que Elyndor debía mantenerse en equilibrio eterno. Otros comenzaron a pensar que el mundo era imperfecto y necesitaba ser guiado, controlado o reconstruido. La diferencia entre proteger el mundo y gobernarlo terminó convirtiéndose en una guerra silenciosa.
+          </p>
+
+          <p>
+            El primero en romper la armonía fue Vaelkor, quien llegó a creer que la paz volvía débiles a las razas mortales. Para él, únicamente el conflicto permitía evolucionar. Donde otros dioses veían equilibrio, Vaelkor veía estancamiento.
+          </p>
+
+          <p>
+            Kaelion, guardián del destino y el orden absoluto, también comenzó a apartarse de Elyndra. Estaba convencido de que la libertad inevitablemente conduciría al caos, y que el futuro debía permanecer bajo control divino.
+          </p>
+
+          <p>
+            La fractura entre los Siete creció durante siglos hasta convertirse en el evento más devastador de toda la historia conocida: La Caída de Elyndra.
+          </p>
+
+          <p>
+            Se dice que los cielos ardieron durante meses. Montañas completas desaparecieron bajo mares recién nacidos. Continentes fueron divididos. Criaturas imposibles escaparon desde planos desconocidos. La magia perdió estabilidad y comenzó a fragmentarse en distintas formas.
+          </p>
+
+          <p>
+            En medio del conflicto, Elyndra intentó detener a los Siete. Pero para entonces la división ya era irreversible. La guerra alcanzó incluso el núcleo espiritual del mundo. Y Elyndra cayó.
+          </p>
+
+          <p>
+            Algunas leyendas afirman que fue asesinada por los propios dioses traidores. Otras aseguran que se sacrificó para evitar la destrucción total de Elyndor. Existen incluso relatos prohibidos que afirman que Elyndra aún vive, fragmentada dentro del mundo mismo, observando en silencio a través de sueños, ecos y lugares donde la realidad se vuelve inestable.
+          </p>
+
+          <p>
+            Los Fey afirman escucharla en sueños antiguos. Los gigantes creen que su voz aún vive bajo las montañas. Los Thalassyr aseguran que el océano conserva sus memorias. Y los dragones más antiguos recuerdan momentos en los que el mundo entero parecía respirar con una sola conciencia.
+          </p>
+
+          <p>
+            Existen lugares donde la presencia de Elyndra aún puede sentirse. Bosques donde el tiempo se distorsiona. Ruinas donde las heridas cicatrizan demasiado rápido. Mares silenciosos donde las emociones quedan grabadas en el agua. Templos olvidados donde las runas reaccionan sin ser tocadas.
+          </p>
+
         </div>
 
       </div>
