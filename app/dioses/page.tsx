@@ -21,12 +21,6 @@ export default function Dioses() {
           <p>
             Antes de las eras conocidas, antes de los reinos mortales y antes incluso
             del nacimiento de las primeras razas conscientes, Elyndor no era un mundo completo.
-            No existían fronteras, estaciones ni civilizaciones.
-          </p>
-
-          <p>
-            El tiempo aún no avanzaba como lo hace ahora y la realidad permanecía dormida
-            bajo mares eternos, cielos inmóviles y corrientes primordiales que fluían sin forma definida.
           </p>
 
           <p>
@@ -41,8 +35,6 @@ export default function Dioses() {
 
           <p>
             Cada uno nació como manifestación de un principio fundamental de la existencia.
-            No eran simples dioses elementales ni gobernantes de un único dominio.
-            Eran conceptos vivos capaces de alterar la realidad misma con su voluntad.
           </p>
 
           <p>
@@ -51,18 +43,13 @@ export default function Dioses() {
             La Caída de Elyndra.
           </p>
 
-          <p>
-            Los sabios más antiguos coinciden en algo:
-            La historia conocida de Elyndor no comenzó con el nacimiento de los reinos.
-            Comenzó con la caída de los dioses.
-          </p>
-
         </div>
 
         <h2 className="text-4xl font-bold text-center mb-12">
           Los Siete
         </h2>
 
+        {/* GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
           <Link href="/dioses/elyndra">
@@ -84,7 +71,7 @@ export default function Dioses() {
               </h2>
 
               <p className="text-zinc-400">
-                Dios de la guerra, conflicto y evolución mediante destrucción.
+                Dios de la guerra y la destrucción.
               </p>
             </div>
           </Link>
@@ -96,7 +83,7 @@ export default function Dioses() {
               </h2>
 
               <p className="text-zinc-400">
-                Guardián del destino y del orden absoluto.
+                Guardián del destino y el orden absoluto.
               </p>
             </div>
           </Link>
@@ -108,7 +95,7 @@ export default function Dioses() {
               </h2>
 
               <p className="text-zinc-400">
-                Portador del fuego primordial y la destrucción inevitable.
+                Portador del fuego primordial.
               </p>
             </div>
           </Link>
@@ -120,7 +107,7 @@ export default function Dioses() {
               </h2>
 
               <p className="text-zinc-400">
-                Señora de la memoria, secretos y verdades olvidadas.
+                Señora de la memoria y secretos olvidados.
               </p>
             </div>
           </Link>
@@ -132,22 +119,31 @@ export default function Dioses() {
               </h2>
 
               <p className="text-zinc-400">
-                Vigilante de los cielos eternos y los ciclos del mundo.
+                Vigilante de los cielos eternos.
               </p>
             </div>
           </Link>
 
-          <Link href="/dioses/lirael">
-            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 border border-zinc-800 cursor-pointer">
-              <h2 className="text-3xl font-semibold mb-3">
-                Lirael
-              </h2>
+        </div>
 
-              <p className="text-zinc-400">
-                Guardiana del equilibrio natural y las almas vivientes.
-              </p>
-            </div>
-          </Link>
+        {/* LIRAEL CENTRADA */}
+        <div className="flex justify-center mt-6">
+
+          <div className="w-full md:w-1/2">
+            <Link href="/dioses/lirael">
+              <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 border border-zinc-800 cursor-pointer">
+
+                <h2 className="text-3xl font-semibold mb-3">
+                  Lirael
+                </h2>
+
+                <p className="text-zinc-400">
+                  Guardiana del equilibrio natural.
+                </p>
+
+              </div>
+            </Link>
+          </div>
 
         </div>
 
