@@ -36,8 +36,8 @@ export default function Elyndra() {
           />
         </div>
 
-        {/* LORE (ARREGLADO SIN CORTES) */}
-        <div className="text-zinc-300 text-lg leading-relaxed space-y-8 overflow-visible h-auto max-h-none">
+        {/* LORE */}
+        <div className="text-zinc-300 text-lg leading-relaxed space-y-8">
 
           <p>
             Antes de las eras conocidas, antes de los reinos mortales y antes incluso del nacimiento de las primeras razas conscientes, Elyndor no era un mundo completo. No existían fronteras, estaciones ni civilizaciones. El tiempo aún no avanzaba como lo hace ahora y la realidad permanecía dormida bajo mares eternos, cielos inmóviles y corrientes primordiales que fluían sin forma definida.
@@ -97,6 +97,55 @@ export default function Elyndra() {
 
           <p>
             Existen lugares donde la presencia de Elyndra aún puede sentirse. Bosques donde el tiempo se distorsiona. Ruinas donde las heridas cicatrizan demasiado rápido. Mares silenciosos donde las emociones quedan grabadas en el agua. Templos olvidados donde las runas reaccionan sin ser tocadas.
+          </p>
+
+        </div>
+
+        {/* RUNA */}
+        <div className="mt-20 text-zinc-300 text-lg leading-relaxed space-y-6">
+
+          <h2 className="text-3xl font-bold text-center text-white mb-8">
+            ⟡ RUNA DE ELYNDRA ⟡
+          </h2>
+
+          <p>
+            <strong>Nombre antiguo:</strong> Æl’Nythra Veylor
+          </p>
+
+          <p>
+            <strong>Significado literal:</strong> “Donde la conciencia primordial permanece, nada puede romper lo que existe bajo su mirada.”
+          </p>
+
+          <p>
+            <strong>Significado real dentro del mundo:</strong> La Runa de Elyndra no es un símbolo de protección común. Es una marca de PRESENCIA DIVINA ACTIVA.
+          </p>
+
+          <p>
+            Cuando aparece, significa una de estas tres cosas:
+          </p>
+
+          <p>
+            <strong>1. Presencia residual:</strong> Elyndra estuvo ahí recientemente o su esencia aún permea el lugar. El espacio todavía “respira” como ella.
+          </p>
+
+          <p>
+            <strong>2. Dominio de realidad:</strong> El área está dentro de una zona donde las leyes del mundo están ancladas a su voluntad. La magia, el tiempo o la corrupción no pueden alterar ese lugar de forma normal.
+          </p>
+
+          <p>
+            <strong>3. Sello de templo o reliquia primordial:</strong> Indica que el lugar contiene fragmentos de su esencia, memorias del mundo antes de los Siete o artefactos imposibles creados por la diosa.
+          </p>
+
+          <p>
+            <strong>Efecto espiritual (no físico):</strong> reduce la violencia dentro del área, disuelve magia inestable o corrupta, provoca “silencio mental” en entidades caóticas y genera sensación de ser observado desde todas partes.
+          </p>
+
+          <p>
+            <strong>Advertencia antigua:</strong> “Quien rompe la Runa de Elyndra, no rompe piedra… rompe un recuerdo vivo del mundo.”
+          </p>
+
+          <p>
+            <strong>Atributo clave:</strong> No protege el lugar. El lugar es protegido porque Elyndra aún lo está mirando.
           </p>
 
         </div>
