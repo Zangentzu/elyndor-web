@@ -67,6 +67,20 @@ export default function Mundo() {
 
         </div>
 
+        {/* CRONICAS CENTRADO */}
+        <div className="flex justify-center mt-6">
+
+          <div className="w-full md:w-1/2">
+            <div className="p-8 rounded-2xl bg-zinc-900">
+              <h2 className="text-3xl font-bold mb-2">Crónicas</h2>
+              <p className="text-zinc-400">
+                Lee las historias y libros de Elyndor.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
         {/* MENU INFERIOR */}
         <div className="flex flex-wrap justify-center gap-4 mt-20">
 
