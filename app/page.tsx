@@ -3,9 +3,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-black via-zinc-900 to-black text-white">
-      
       <div className="text-center space-y-6 px-6">
-
+        
         <h1 className="text-5xl font-bold tracking-wide">
           Elyndor
         </h1>
