@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Dioses() {
   return (
@@ -102,26 +103,50 @@ export default function Dioses() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
           <Link href="/dioses/elyndra">
-            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 border border-zinc-800 cursor-pointer">
-              <h2 className="text-3xl font-semibold mb-3">
-                Elyndra
-              </h2>
+            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 border border-zinc-800 cursor-pointer h-[170px] flex items-center justify-between">
 
-              <p className="text-zinc-400">
-                La conciencia primordial y origen de los Siete.
-              </p>
+              <div className="pr-6">
+                <h2 className="text-3xl font-semibold mb-3">
+                  Elyndra
+                </h2>
+
+                <p className="text-zinc-400">
+                  La conciencia primordial y origen de los Siete.
+                </p>
+              </div>
+
+              <Image
+                src="/dioses/runa-elyndra.png"
+                alt="Runa de Elyndra"
+                width={95}
+                height={95}
+                className="opacity-90 flex-shrink-0 object-contain"
+              />
+
             </div>
           </Link>
 
           <Link href="/dioses/vaelkor">
-            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 border border-zinc-800 cursor-pointer">
-              <h2 className="text-3xl font-semibold mb-3">
-                Vaelkor
-              </h2>
+            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 border border-zinc-800 cursor-pointer h-[170px] flex items-center justify-between">
 
-              <p className="text-zinc-400">
-                Dios de la guerra y la destrucción.
-              </p>
+              <div className="pr-6">
+                <h2 className="text-3xl font-semibold mb-3">
+                  Vaelkor
+                </h2>
+
+                <p className="text-zinc-400">
+                  Dios de la guerra y la destrucción.
+                </p>
+              </div>
+
+              <Image
+                src="/dioses/runa-vaelkor.png"
+                alt="Runa de Vaelkor"
+                width={95}
+                height={95}
+                className="opacity-90 flex-shrink-0 object-contain"
+              />
+
             </div>
           </Link>
 
