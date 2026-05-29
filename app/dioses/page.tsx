@@ -151,14 +151,26 @@ export default function Dioses() {
           </Link>
 
           <Link href="/dioses/kaelion">
-            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 border border-zinc-800 cursor-pointer">
-              <h2 className="text-3xl font-semibold mb-3">
-                Kaelion
-              </h2>
+            <div className="bg-zinc-900 hover:bg-zinc-800 transition rounded-2xl p-8 border border-zinc-800 cursor-pointer h-[170px] flex items-center justify-between">
 
-              <p className="text-zinc-400">
-                Guardián del destino y el orden absoluto.
-              </p>
+              <div className="pr-6">
+                <h2 className="text-3xl font-semibold mb-3">
+                  Kaelion
+                </h2>
+
+                <p className="text-zinc-400">
+                  Guardián del destino y el orden absoluto.
+                </p>
+              </div>
+
+              <Image
+                src="/dioses/runa-kaelion.png"
+                alt="Runa de Kaelion"
+                width={95}
+                height={95}
+                className="opacity-90 flex-shrink-0 object-contain"
+              />
+
             </div>
           </Link>
 

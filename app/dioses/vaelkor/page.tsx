@@ -86,59 +86,115 @@ export default function Vaelkor() {
         </div>
 
         {/* RUNA */}
-        <div className="mt-20 text-zinc-300 text-lg leading-relaxed space-y-6">
+        <div className="border-t border-zinc-800 pt-20 mt-24">
 
-          <h2 className="text-3xl font-bold text-center text-white mb-8">
+          <h2 className="text-4xl font-bold text-center mb-10 text-white">
             ⟡ RUNA DE VAELKOR ⟡
           </h2>
 
-          <p>
-            <strong>Nombre antiguo:</strong> Væ’Kor Nul’Thar
-          </p>
+          <div className="text-center mb-12">
 
-          <p>
-            <strong>Significado literal:</strong> “Donde el Vacío observa, incluso la existencia duda de sí misma.”
-          </p>
+            <p className="text-2xl text-white mb-4">
+              Væ’Kor Nul’Thar
+            </p>
 
-          <p>
-            <strong>Significado real dentro del mundo:</strong> La Runa de Vaelkor no es un sello de protección ni de dominio. Es una marca de ANULACIÓN EXISTENCIAL INCOMPLETA.
-          </p>
+            <p className="text-zinc-400 italic text-lg">
+              “Donde el Vacío observa, incluso la existencia duda de sí misma.”
+            </p>
 
-          <p>
-            Cuando aparece, significa una de estas tres cosas:
-          </p>
+          </div>
 
-          <p>
-            <strong>1. Filtración del Vacío:</strong> La presencia de Vaelkor ha tocado el lugar recientemente o su influencia está desbordándose desde la grieta sellada. El entorno comienza a “olvidarse a sí mismo”.
-          </p>
+          <div className="text-zinc-300 text-lg leading-relaxed space-y-8">
 
-          <p>
-            <strong>2. Zona de desrealización:</strong> El área ha perdido estabilidad ontológica. El sonido puede desaparecer, la magia falla o se apaga, la memoria inmediata se degrada y el tiempo se vuelve inconsistente.
-          </p>
+            <p>
+              La Runa de Vaelkor no es un sello de protección ni de dominio.
+              Es una marca de ANULACIÓN EXISTENCIAL INCOMPLETA.
+            </p>
 
-          <p>
-            <strong>3. Marca de consumo pasivo:</strong> El lugar ya ha sido parcialmente “comido” por el Vacío. No está destruido: está sin registro en la realidad plena.
-          </p>
+            <p>
+              Cuando aparece, significa una de estas tres cosas:
+            </p>
 
-          <p>
-            <strong>Efecto espiritual (no físico):</strong> provoca pérdida de memoria a corto plazo en seres vivos cercanos, sensación de ausencia incluso en plena visión del lugar, emociones planas o desconectadas, dificultad para recordar nombres y conceptos, y un silencio “pesado” como si tuviera masa.
-          </p>
+            <div className="space-y-6">
 
-          <p>
-            <strong>Interacción con magia:</strong> los hechizos de creación se desvanecen al activarse, los conjuros de protección pierden coherencia estructural y la energía mágica “olvida su forma”.
-          </p>
+              <div>
+                <h3 className="text-white text-2xl font-semibold mb-2">
+                  1. Filtración del Vacío
+                </h3>
 
-          <p>
-            <strong>Advertencia antigua:</strong> “Donde la Runa de Vaelkor permanece, el mundo no ha sido destruido… solo ha dejado de recordar que existe.”
-          </p>
+                <p>
+                  La presencia de Vaelkor ha tocado el lugar recientemente
+                  o su influencia está desbordándose desde la grieta sellada.
+                  El entorno comienza a “olvidarse a sí mismo”.
+                </p>
+              </div>
 
-          <p>
-            <strong>Atributo clave:</strong> No protege. No domina. No corrompe. Simplemente reduce la realidad a algo incompleto hasta que deja de sostenerse.
-          </p>
+              <div>
+                <h3 className="text-white text-2xl font-semibold mb-2">
+                  2. Zona de desrealización
+                </h3>
+
+                <p>
+                  El área ha perdido estabilidad ontológica.
+                  El sonido puede desaparecer,
+                  la magia falla o se apaga,
+                  la memoria inmediata se degrada
+                  y el tiempo se vuelve inconsistente.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-white text-2xl font-semibold mb-2">
+                  3. Marca de consumo pasivo
+                </h3>
+
+                <p>
+                  El lugar ya ha sido parcialmente “comido” por el Vacío.
+                  No está destruido:
+                  está sin registro en la realidad plena.
+                </p>
+              </div>
+
+            </div>
+
+            <p>
+              Su efecto espiritual no es físico.
+              Provoca pérdida de memoria a corto plazo
+              en seres vivos cercanos,
+              sensación de ausencia incluso en plena visión del lugar,
+              emociones planas o desconectadas,
+              dificultad para recordar nombres y conceptos,
+              y un silencio “pesado”
+              como si tuviera masa.
+            </p>
+
+            <p>
+              Su interacción con magia es devastadora.
+              Los hechizos de creación se desvanecen al activarse,
+              los conjuros de protección pierden coherencia estructural
+              y la energía mágica “olvida su forma”.
+            </p>
+
+            <p className="italic text-zinc-400 border-l-2 border-zinc-700 pl-6">
+              “Donde la Runa de Vaelkor permanece,
+              el mundo no ha sido destruido…
+              solo ha dejado de recordar que existe.”
+            </p>
+
+            <p className="text-white text-xl font-semibold text-center">
+              No protege.
+              No domina.
+              No corrompe.
+              Simplemente reduce la realidad
+              a algo incompleto
+              hasta que deja de sostenerse.
+            </p>
+
+          </div>
 
         </div>
 
-        {/* IMAGEN RUNA (NUEVA - AL FINAL) */}
+        {/* IMAGEN RUNA */}
         <div className="mt-16 flex justify-center">
           <Image
             src="/dioses/runa-vaelkor.png"

@@ -102,19 +102,21 @@ export default function Elyndra() {
         </div>
 
         {/* RUNA */}
-        <div className="mt-20 text-zinc-300 text-lg leading-relaxed space-y-6">
+        <div className="border-t border-zinc-800 mt-20 pt-20 text-zinc-300 text-lg leading-relaxed space-y-6">
 
           <h2 className="text-3xl font-bold text-center text-white mb-8">
             ⟡ RUNA DE ELYNDRA ⟡
           </h2>
 
-          <p>
-            <strong>Nombre antiguo:</strong> Æl’Nythra Veylor
-          </p>
+          <div className="text-center mb-10">
+            <p className="text-2xl text-white mb-4">
+              Æl’Nythra Veylor
+            </p>
 
-          <p>
-            <strong>Significado literal:</strong> “Donde la conciencia primordial permanece, nada puede romper lo que existe bajo su mirada.”
-          </p>
+            <p className="text-zinc-400 italic text-lg">
+              “Donde la conciencia primordial permanece, nada puede romper lo que existe bajo su mirada.”
+            </p>
+          </div>
 
           <p>
             <strong>Significado real dentro del mundo:</strong> La Runa de Elyndra no es un símbolo de protección común. Es una marca de PRESENCIA DIVINA ACTIVA.
@@ -148,17 +150,18 @@ export default function Elyndra() {
             <strong>Atributo clave:</strong> No protege el lugar. El lugar es protegido porque Elyndra aún lo está mirando.
           </p>
 
-          {/* IMAGEN DE LA RUNA */}
-          <div className="mt-10 flex justify-center">
-            <Image
-              src="/dioses/runa-elyndra.png"
-              alt="Runa de Elyndra"
-              width={600}
-              height={600}
-              className="rounded-2xl border border-zinc-800 shadow-lg"
-            />
-          </div>
+        </div>
 
+        {/* IMAGEN DE LA RUNA */}
+        <div className="mt-16 flex justify-center">
+          <Image
+            src="/dioses/runa-elyndra.png"
+            alt="Runa de Elyndra"
+            width={600}
+            height={600}
+            className="rounded-2xl border border-zinc-800 shadow-lg"
+            priority
+          />
         </div>
 
       </div>
